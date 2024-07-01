@@ -1,0 +1,89 @@
+[gd_scene load_steps=4 format=3 uid="uid://s03b3mdfaqj1"]
+
+[ext_resource type="Script" path="res://control.gd" id="1_4utvl"]
+[ext_resource type="Texture2D" uid="uid://3d4w7oxitdo3" path="res://pfp/ed4e3f35734df784dfe6490db8420fed.jpg" id="2_s8gik"]
+[ext_resource type="Texture2D" uid="uid://cwroedi2vhwoh" path="res://God of War_20210811211718.png" id="3_tt1ai"]
+
+[node name="Control" type="Control"]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+script = ExtResource("1_4utvl")
+
+[node name="Panel" type="Panel" parent="."]
+layout_mode = 0
+offset_left = 547.0
+offset_top = 2.0
+offset_right = 993.0
+offset_bottom = 899.0
+
+[node name="VBoxContainer" type="VBoxContainer" parent="Panel"]
+layout_mode = 0
+offset_right = 446.0
+offset_bottom = 897.0
+
+[node name="Label" type="Label" parent="."]
+layout_mode = 2
+offset_left = 547.0
+offset_top = 2.0
+offset_right = 993.0
+offset_bottom = 97.0
+text = "Adeiza Abdulsamad Yusuf"
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="Button" type="Button" parent="."]
+layout_mode = 0
+offset_left = 693.0
+offset_top = 214.0
+offset_right = 835.0
+offset_bottom = 257.0
+text = "Github"
+
+[node name="LinkButton" type="LinkButton" parent="Button"]
+layout_mode = 0
+offset_right = 142.0
+offset_bottom = 43.0
+uri = "https://github.com/Infinitx12"
+
+[node name="Button2" type="Button" parent="."]
+layout_mode = 0
+offset_left = 693.0
+offset_top = 321.0
+offset_right = 835.0
+offset_bottom = 364.0
+text = "Frontend Mentor"
+
+[node name="LinkButton" type="LinkButton" parent="Button2"]
+layout_mode = 0
+offset_right = 142.0
+offset_bottom = 43.0
+uri = "https://www.frontendmentor.io/profile/Infinitx12"
+
+[node name="Button3" type="Button" parent="."]
+layout_mode = 0
+offset_left = 693.0
+offset_top = 422.0
+offset_right = 835.0
+offset_bottom = 465.0
+text = "Linkedln"
+
+[node name="LinkButton" type="LinkButton" parent="Button3"]
+layout_mode = 0
+offset_right = 142.0
+offset_bottom = 43.0
+uri = "https://www.linkedin.com/in/adeiza-abdulsamad-6292782b3/"
+
+[node name="Ed4e3f35734Df784Dfe6490Db8420Fed" type="Sprite2D" parent="."]
+position = Vector2(759, 141)
+scale = Vector2(0.201241, 0.201529)
+texture = ExtResource("2_s8gik")
+
+[node name="GodOfWar20210811211718" type="Sprite2D" parent="."]
+show_behind_parent = true
+position = Vector2(747, 477)
+scale = Vector2(0.911458, 0.942593)
+texture = ExtResource("3_tt1ai")
